@@ -92,7 +92,7 @@ class Icon extends Field
      */
     protected function classes(): string
     {
-        return 'w-8 h-8 ' . $this->css;
+        return $this->css;
     }
 
     /**
